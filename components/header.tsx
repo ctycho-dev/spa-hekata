@@ -31,23 +31,22 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md border-b border-border" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md border-b border-border" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <Image
-              src="/images/gekata-logo.jpg"
-              alt="Геката логотип"
-              width={40}
-              height={40}
-              className="rounded-lg"
-            />
-            <span className="text-xl font-bold text-foreground">Геката</span>
-          </Link>
+                <Image
+                  src="/logo.png"
+                  alt="Геката"
+                  width={150}
+                  height={48}
+                  className="rounded-md object-contain" // object-contain prevents stretching
+                  priority        // Ensures the logo loads immediately
+                />
+              </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
