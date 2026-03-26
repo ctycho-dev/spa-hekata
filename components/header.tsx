@@ -38,15 +38,15 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-                <Image
-                  src="/logo.png"
-                  alt="Геката"
-                  width={150}
-                  height={48}
-                  className="rounded-md object-contain" // object-contain prevents stretching
-                  priority        // Ensures the logo loads immediately
-                />
-              </Link>
+            <Image
+              src="/logo.png"
+              alt="Геката"
+              width={150}
+              height={48}
+              className="rounded-md object-contain" // object-contain prevents stretching
+              priority        // Ensures the logo loads immediately
+            />
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">

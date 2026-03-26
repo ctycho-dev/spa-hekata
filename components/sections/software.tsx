@@ -52,17 +52,17 @@ export function SoftwareSection() {
   return (
     <section id="software" className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        {/* <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Программные продукты и права на ПО
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
             Собственные программные продукты компании, зарегистрированные в Реестре российского ПО
           </p>
-        </div>
+        </div> */}
 
         {/* Registry info */}
-        <div className="max-w-4xl mx-auto mb-12">
+        {/* <div className="max-w-4xl mx-auto mb-12">
           <Card className="bg-primary/5 border-primary/20">
             <CardContent className="p-6 flex items-start gap-4">
               <div className="p-3 rounded-xl bg-primary/10">
@@ -81,10 +81,10 @@ export function SoftwareSection() {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
 
         {/* Software products */}
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
+        {/* <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
           {softwareProducts.map((product) => (
             <Card key={product.name} className="bg-card border-border">
               <CardHeader className="pb-4">
@@ -138,14 +138,19 @@ export function SoftwareSection() {
                 </Link>
               </CardContent>
             </Card>
-          ))}
-        </div>
+          ))} 
+        </div> */}
 
         {/* Access methods */}
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-xl font-semibold text-foreground text-center mb-8">
+          {/* <h3 className="text-xl font-semibold text-foreground text-center mb-8">
             Способы предоставления прав
-          </h3>
+          </h3> */}
+          <div className="mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center">
+              Способы предоставления прав
+            </h2>
+          </div>
           <div className="grid md:grid-cols-3 gap-6">
             {accessMethods.map((method) => (
               <Card key={method.title} className="bg-card border-border text-center">

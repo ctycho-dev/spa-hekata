@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">1. Общие положения</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Настоящая Политика конфиденциальности определяет порядок обработки и защиты 
+                Настоящая Политика конфиденциальности определяет порядок обработки и защиты
                 ООО «Геката» (далее — Компания) персональных данных пользователей сайта.
               </p>
             </section>
@@ -36,8 +36,8 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">2. Сбор информации</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Компания собирает информацию, которую пользователь предоставляет добровольно 
-                при заполнении форм на сайте: имя, адрес электронной почты, номер телефона, 
+                Компания собирает информацию, которую пользователь предоставляет добровольно
+                при заполнении форм на сайте: имя, адрес электронной почты, номер телефона,
                 текст сообщения.
               </p>
             </section>
@@ -57,8 +57,8 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">4. Защита информации</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Компания принимает все необходимые организационные и технические меры для 
-                защиты персональных данных пользователей от несанкционированного доступа, 
+                Компания принимает все необходимые организационные и технические меры для
+                защиты персональных данных пользователей от несанкционированного доступа,
                 изменения, раскрытия или уничтожения.
               </p>
             </section>
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">5. Передача данных третьим лицам</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Компания не передаёт персональные данные третьим лицам, за исключением случаев, 
+                Компания не передаёт персональные данные третьим лицам, за исключением случаев,
                 предусмотренных законодательством Российской Федерации.
               </p>
             </section>
@@ -74,8 +74,8 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">6. Контактная информация</h2>
               <p className="text-muted-foreground leading-relaxed">
-                По вопросам, связанным с обработкой персональных данных, вы можете обратиться 
-                по адресу электронной почты: info@gekata.ru
+                По вопросам, связанным с обработкой персональных данных, вы можете обратиться
+                по адресу электронной почты: ooogekata@yandex.ru
               </p>
             </section>
 

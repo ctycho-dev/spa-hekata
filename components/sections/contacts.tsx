@@ -12,19 +12,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@gekata.ru",
-    href: "mailto:info@gekata.ru",
+    value: "ooogekata@yandex.ru",
+    href: "mailto:ooogekata@yandex.ru",
   },
   {
     icon: Phone,
     label: "Телефон",
-    value: "+7 (495) 000-00-00",
+    value: "8 (843) 200-09-00",
     href: "tel:+74950000000",
   },
   {
     icon: MapPin,
     label: "Адрес",
-    value: "123456, г. Москва, ул. Примерная, д. 1, офис 100",
+    value: "Республика Татарстан, 420111, г. Казань, ул. Островского, д. 22",
     href: null,
   },
 ]
@@ -42,10 +42,10 @@ export function ContactsSection() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
+
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1000))
-    
+
     setIsSubmitting(false)
     setIsSubmitted(true)
     setFormData({ name: "", email: "", phone: "", message: "" })

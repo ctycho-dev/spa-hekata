@@ -5,10 +5,11 @@ import { Mail, Phone, MapPin } from "lucide-react"
 const companyInfo = {
   name: "ООО «Геката»",
   fullName: "Общество с ограниченной ответственностью «Геката»",
-  inn: "7700000000",
-  address: "123456, г. Москва, ул. Примерная, д. 1, офис 100",
-  email: "info@gekata.ru",
-  phone: "+7 (495) 000-00-00",
+  inn: "1655512202",
+  ogrn: "1261600003895",
+  address: "Республика Татарстан, 420111, г. Казань, ул. Островского, д. 22",
+  email: "ooogekata@yandex.ru",
+  phone: "8 (843) 200-09-00",
   okveds: [
     "62.01 — Разработка компьютерного ПО",
     "62.02 — Консультационные услуги в области ИТ",
@@ -38,16 +39,17 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-4">
               <Image
-                src="/images/gekata-logo.jpg"
-                alt="Геката логотип"
-                width={40}
-                height={40}
-                className="rounded-lg"
+                src="/logo.png"
+                alt="Геката"
+                width={150}
+                height={48}
+                className="rounded-md object-contain" // object-contain prevents stretching
+                priority        // Ensures the logo loads immediately
               />
-              <span className="text-xl font-bold text-foreground">Геката</span>
             </Link>
+
             <p className="text-muted-foreground text-sm mb-4 max-w-md">
-              Разработка программного обеспечения, системная интеграция 
+              Разработка программного обеспечения, системная интеграция
               и техническая поддержка ИТ-решений для бизнеса.
             </p>
             <div className="space-y-2">

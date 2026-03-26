@@ -28,7 +28,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">1. Общие положения</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Настоящее Пользовательское соглашение (далее — Соглашение) регулирует отношения 
+                Настоящее Пользовательское соглашение (далее — Соглашение) регулирует отношения
                 между ООО «Геката» (далее — Компания) и пользователем сайта (далее — Пользователь).
               </p>
             </section>
@@ -36,8 +36,8 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">2. Предмет соглашения</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Компания предоставляет Пользователю доступ к информации об услугах, 
-                размещённой на сайте, а также возможность направления запросов через формы 
+                Компания предоставляет Пользователю доступ к информации об услугах,
+                размещённой на сайте, а также возможность направления запросов через формы
                 обратной связи.
               </p>
             </section>
@@ -65,8 +65,8 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">4. Интеллектуальная собственность</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Все материалы сайта, включая тексты, изображения, программный код, 
-                являются объектами интеллектуальной собственности Компании и защищены 
+                Все материалы сайта, включая тексты, изображения, программный код,
+                являются объектами интеллектуальной собственности Компании и защищены
                 законодательством Российской Федерации.
               </p>
             </section>
@@ -74,7 +74,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">5. Ограничение ответственности</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Компания не несёт ответственности за любые убытки, возникшие в результате 
+                Компания не несёт ответственности за любые убытки, возникшие в результате
                 использования или невозможности использования материалов сайта.
               </p>
             </section>
@@ -82,7 +82,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">6. Изменение соглашения</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Компания оставляет за собой право вносить изменения в настоящее Соглашение 
+                Компания оставляет за собой право вносить изменения в настоящее Соглашение
                 без предварительного уведомления Пользователя.
               </p>
             </section>
@@ -91,10 +91,11 @@ export default function TermsPage() {
               <h2 className="text-xl font-semibold text-foreground mb-3">7. Контактная информация</h2>
               <p className="text-muted-foreground leading-relaxed">
                 ООО «Геката»<br />
-                ИНН: 7700000000<br />
-                Адрес: 123456, г. Москва, ул. Примерная, д. 1, офис 100<br />
-                Email: info@gekata.ru<br />
-                Телефон: +7 (495) 000-00-00
+                ИНН: 1655512202<br />
+                ОГРН: 1261600003895<br />
+                Адрес: Республика Татарстан, 420111, г. Казань, ул. Островского, д. 22<br />
+                Email: ooogekata@yandex.ru<br />
+                Телефон: 8 (843) 200-09-00
               </p>
             </section>
 
