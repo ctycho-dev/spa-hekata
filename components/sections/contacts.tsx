@@ -42,13 +42,31 @@ export function ContactsSection() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+    console.log("[contact] submitting", formData)
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    try {
+      console.log("[contact] sending request to /api/contact")
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
 
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    setFormData({ name: "", email: "", phone: "", message: "" })
+      console.log("[contact] response status:", res.status)
+      const data = await res.json()
+      console.log("[contact] response body:", data)
+
+      if (!res.ok) throw new Error(data?.error ?? "Server error")
+
+      setIsSubmitted(true)
+      setFormData({ name: "", email: "", phone: "", message: "" })
+    } catch (err) {
+      console.error("[contact] error:", err)
+      alert("Ошибка отправки. Попробуйте позже.")
+    } finally {
+      setIsSubmitting(false)
+      console.log("[contact] done")
+    }
   }
 
   return (

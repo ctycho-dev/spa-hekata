@@ -43,8 +43,15 @@ export function Footer() {
                 alt="Геката"
                 width={150}
                 height={48}
-                className="rounded-md object-contain" // object-contain prevents stretching
-                priority        // Ensures the logo loads immediately
+                className="rounded-md object-contain dark:hidden"
+                priority
+              />
+              <Image
+                src="/logo-white.png"
+                alt="Геката"
+                width={150}
+                height={48}
+                className="rounded-md object-contain hidden dark:block"
               />
             </Link>
 

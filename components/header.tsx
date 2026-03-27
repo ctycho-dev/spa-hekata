@@ -38,13 +38,22 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
+            {/* Shown in light mode, hidden in dark */}
             <Image
               src="/logo.png"
               alt="Геката"
               width={150}
               height={48}
-              className="rounded-md object-contain" // object-contain prevents stretching
-              priority        // Ensures the logo loads immediately
+              className="rounded-md object-contain dark:hidden"
+              priority
+            />
+            {/* Shown in dark mode, hidden in light */}
+            <Image
+              src="/logo-white.png"
+              alt="Геката"
+              width={150}
+              height={48}
+              className="rounded-md object-contain hidden dark:block"
             />
           </Link>
 
