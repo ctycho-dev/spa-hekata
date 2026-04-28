@@ -41,7 +41,7 @@ export function Header() {
             <Image
               src="/logo-black.svg"
               alt="Геката"
-              width={100}
+              width={48}
               height={48}
               className="rounded-md object-contain dark:hidden"
               priority
@@ -49,7 +49,7 @@ export function Header() {
             <Image
               src="/logo-white.svg"
               alt="Геката"
-              width={100}
+              width={48}
               height={48}
               className="rounded-md object-contain hidden dark:block"
             />

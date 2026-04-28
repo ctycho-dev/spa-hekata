@@ -38,7 +38,22 @@ export function Footer() {
           {/* Company info */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-4">
+            <Image
+                src="/logo-black.svg"
+                alt="Геката"
+                width={48}
+                height={48}
+                className="rounded-md object-contain dark:hidden"
+                priority
+              />
               <Image
+                src="/logo-white.svg"
+                alt="Геката"
+                width={48}
+                height={48}
+                className="rounded-md object-contain hidden dark:block"
+              />
+              {/* <Image
                 src="/logo.png"
                 alt="Геката"
                 width={150}
@@ -52,7 +67,7 @@ export function Footer() {
                 width={150}
                 height={48}
                 className="rounded-md object-contain hidden dark:block"
-              />
+              /> */}
             </Link>
 
             <p className="text-muted-foreground text-sm mb-4 max-w-md">
